@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    bottom: 350px;
+    left: 100px;
+    font-size: x-large;
+    border-radius: 50px;
+    background-color: white;
+    color: red;
+    transition: .3s linear;
+}
+button:hover{ 
+    color: white;
+    background-color: black;
+    border-color: red;
+    cursor: pointer;
+    scale: 1.1;
+}
+button:active{
+    transition: none;
+    scale: 1.2;
+}
+.fa-solid{
+    position: absolute;
+    scale: 4;
+    bottom: 350px;
+    left: 440px;
+}
+.text{
+    position: absolute;
+    bottom: 300px;
+    left: 500px;
+    font-size: 50px;
+}
+.fa-github{
+    position: absolute;
+    color: black;
+    scale: 5;
+    bottom: 32.5px;
+    left: 31px;
+}
